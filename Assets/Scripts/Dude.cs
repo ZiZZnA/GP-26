@@ -4,13 +4,18 @@ namespace AH2724
 {
     public class Dude : MonoBehaviour
     {
-
-        public Material dudeMaterial;
-        public PhysicsMaterial dudePhysicsMaterial;
-        public Transform dudeLocation;
-        public string dudeName;
-        public float dudeHeight;
-        public float dudeWidth;
+        [SerializeField]
+        private Material dudeMaterial;
+        [SerializeField]
+        private PhysicsMaterial dudePhysicsMaterial;
+        [SerializeField]
+        private Transform dudeLocation;
+        [SerializeField]
+        private string dudeName;
+        [SerializeField]
+        private float dudeHeight;
+        [SerializeField]
+        private float dudeWidth;
 
 
 

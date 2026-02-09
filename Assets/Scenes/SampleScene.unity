@@ -589,7 +589,7 @@ Transform:
   m_GameObject: {fileID: 1192501218}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.38, y: -0.09, z: 0}
+  m_LocalPosition: {x: -2.25, y: 0.85, z: -9.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -611,8 +611,8 @@ MonoBehaviour:
   diceRigidbodies: []
   dicePrefab: {fileID: 4252318837500013927, guid: b8ffd719dda1409428cb4143c058217b, type: 3}
   useOption1: 0
-  forceDirection: {x: 0, y: 0, z: 1}
-  forceAmount: 50
+  forceDirection: {x: 0.1, y: 0.2, z: 1}
+  forceAmount: 10
 --- !u!1 &1723717118
 GameObject:
   m_ObjectHideFlags: 0
